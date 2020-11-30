@@ -1,0 +1,12 @@
+/home/nuwanga/wso2/rolename_user/src/main/java/org/wso2/custom/authenticator/local/grpc/serviceGrpc.java
+/home/nuwanga/wso2/rolename_user/src/main/java/org/wso2/custom/authenticator/local/grpc/MapEntryOuterClass.java
+/home/nuwanga/wso2/rolename_user/src/main/java/org/wso2/custom/authenticator/local/grpc/userGrpc.java
+/home/nuwanga/wso2/rolename_user/src/main/java/service/RoleNameService.java
+/home/nuwanga/wso2/rolename_user/src/main/java/server/ServiceServer.java
+/home/nuwanga/wso2/rolename_user/src/main/java/org/wso2/custom/authenticator/local/grpc/AuthenticatedUserOuterClass.java
+/home/nuwanga/wso2/rolename_user/src/main/java/server/ServiceServerAuth.java
+/home/nuwanga/wso2/rolename_user/src/main/java/org/wso2/custom/authenticator/local/grpc/UserOuterClass.java
+/home/nuwanga/wso2/rolename_user/src/main/java/org/wso2/custom/authenticator/local/grpc/ClaimMappingOuterClass.java
+/home/nuwanga/wso2/rolename_user/src/main/java/org/wso2/custom/authenticator/local/grpc/Service.java
+/home/nuwanga/wso2/rolename_user/src/main/java/org/wso2/custom/authenticator/local/grpc/ClaimOuterClass.java
+/home/nuwanga/wso2/rolename_user/src/main/java/service/RoleNameServiceAthenticatedUser.java

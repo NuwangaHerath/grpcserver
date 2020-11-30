@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "org.wso2.custom.authenticator.local.grpc";
+import "AuthenticatedUser.proto";
+
+service service{
+  rpc getRoleName(AuthenticatedUser) returns (Response){};
+}
+message Response{
+  string  responsemessage = 1;
+}

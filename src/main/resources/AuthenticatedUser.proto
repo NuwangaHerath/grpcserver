@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_package = "org.wso2.custom.authenticator.local.grpc";
+import "MapEntry.proto";
+import "ClaimMapping.proto";
+
+
+message AuthenticatedUser{
+  sint64 serialVersionUID = 1;
+  string authenticatedSubjectIdentifier = 2;
+  string federatedIdPName = 3;
+  bool isFederatedUser = 4;
+  //map<ClaimMapping, string> user= 6;
+  repeated MapEntry userAttributes = 5;
+
+}

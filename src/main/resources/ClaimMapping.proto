@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "org.wso2.custom.authenticator.local.grpc";
+import "Claim.proto";
+
+message ClaimMapping{
+  sint32 serialVersionUID = 1;
+  Claim localClaim = 2;
+  Claim remoteClaim =3;
+  string defaultValue = 4;
+  bool requested = 5;
+}
