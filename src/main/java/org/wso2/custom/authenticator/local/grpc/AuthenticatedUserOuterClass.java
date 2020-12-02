@@ -49,44 +49,24 @@ public final class AuthenticatedUserOuterClass {
     boolean getIsFederatedUser();
 
     /**
-     * <pre>
-     *map&lt;ClaimMapping, string&gt; user= 6;
-     * </pre>
-     *
      * <code>repeated .MapEntry userAttributes = 5;</code>
      */
     java.util.List<org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry> 
         getUserAttributesList();
     /**
-     * <pre>
-     *map&lt;ClaimMapping, string&gt; user= 6;
-     * </pre>
-     *
      * <code>repeated .MapEntry userAttributes = 5;</code>
      */
     org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry getUserAttributes(int index);
     /**
-     * <pre>
-     *map&lt;ClaimMapping, string&gt; user= 6;
-     * </pre>
-     *
      * <code>repeated .MapEntry userAttributes = 5;</code>
      */
     int getUserAttributesCount();
     /**
-     * <pre>
-     *map&lt;ClaimMapping, string&gt; user= 6;
-     * </pre>
-     *
      * <code>repeated .MapEntry userAttributes = 5;</code>
      */
     java.util.List<? extends org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntryOrBuilder> 
         getUserAttributesOrBuilderList();
     /**
-     * <pre>
-     *map&lt;ClaimMapping, string&gt; user= 6;
-     * </pre>
-     *
      * <code>repeated .MapEntry userAttributes = 5;</code>
      */
     org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntryOrBuilder getUserAttributesOrBuilder(
@@ -292,20 +272,12 @@ public final class AuthenticatedUserOuterClass {
     public static final int USERATTRIBUTES_FIELD_NUMBER = 5;
     private java.util.List<org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry> userAttributes_;
     /**
-     * <pre>
-     *map&lt;ClaimMapping, string&gt; user= 6;
-     * </pre>
-     *
      * <code>repeated .MapEntry userAttributes = 5;</code>
      */
     public java.util.List<org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry> getUserAttributesList() {
       return userAttributes_;
     }
     /**
-     * <pre>
-     *map&lt;ClaimMapping, string&gt; user= 6;
-     * </pre>
-     *
      * <code>repeated .MapEntry userAttributes = 5;</code>
      */
     public java.util.List<? extends org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntryOrBuilder> 
@@ -313,30 +285,18 @@ public final class AuthenticatedUserOuterClass {
       return userAttributes_;
     }
     /**
-     * <pre>
-     *map&lt;ClaimMapping, string&gt; user= 6;
-     * </pre>
-     *
      * <code>repeated .MapEntry userAttributes = 5;</code>
      */
     public int getUserAttributesCount() {
       return userAttributes_.size();
     }
     /**
-     * <pre>
-     *map&lt;ClaimMapping, string&gt; user= 6;
-     * </pre>
-     *
      * <code>repeated .MapEntry userAttributes = 5;</code>
      */
     public org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry getUserAttributes(int index) {
       return userAttributes_.get(index);
     }
     /**
-     * <pre>
-     *map&lt;ClaimMapping, string&gt; user= 6;
-     * </pre>
-     *
      * <code>repeated .MapEntry userAttributes = 5;</code>
      */
     public org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntryOrBuilder getUserAttributesOrBuilder(
@@ -962,10 +922,6 @@ public final class AuthenticatedUserOuterClass {
           org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry, org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry.Builder, org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntryOrBuilder> userAttributesBuilder_;
 
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public java.util.List<org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry> getUserAttributesList() {
@@ -976,10 +932,6 @@ public final class AuthenticatedUserOuterClass {
         }
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public int getUserAttributesCount() {
@@ -990,10 +942,6 @@ public final class AuthenticatedUserOuterClass {
         }
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry getUserAttributes(int index) {
@@ -1004,10 +952,6 @@ public final class AuthenticatedUserOuterClass {
         }
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public Builder setUserAttributes(
@@ -1025,10 +969,6 @@ public final class AuthenticatedUserOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public Builder setUserAttributes(
@@ -1043,10 +983,6 @@ public final class AuthenticatedUserOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public Builder addUserAttributes(org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry value) {
@@ -1063,10 +999,6 @@ public final class AuthenticatedUserOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public Builder addUserAttributes(
@@ -1084,10 +1016,6 @@ public final class AuthenticatedUserOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public Builder addUserAttributes(
@@ -1102,10 +1030,6 @@ public final class AuthenticatedUserOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public Builder addUserAttributes(
@@ -1120,10 +1044,6 @@ public final class AuthenticatedUserOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public Builder addAllUserAttributes(
@@ -1139,10 +1059,6 @@ public final class AuthenticatedUserOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public Builder clearUserAttributes() {
@@ -1156,10 +1072,6 @@ public final class AuthenticatedUserOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public Builder removeUserAttributes(int index) {
@@ -1173,10 +1085,6 @@ public final class AuthenticatedUserOuterClass {
         return this;
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry.Builder getUserAttributesBuilder(
@@ -1184,10 +1092,6 @@ public final class AuthenticatedUserOuterClass {
         return getUserAttributesFieldBuilder().getBuilder(index);
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntryOrBuilder getUserAttributesOrBuilder(
@@ -1198,10 +1102,6 @@ public final class AuthenticatedUserOuterClass {
         }
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public java.util.List<? extends org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntryOrBuilder> 
@@ -1213,10 +1113,6 @@ public final class AuthenticatedUserOuterClass {
         }
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry.Builder addUserAttributesBuilder() {
@@ -1224,10 +1120,6 @@ public final class AuthenticatedUserOuterClass {
             org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry.getDefaultInstance());
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry.Builder addUserAttributesBuilder(
@@ -1236,10 +1128,6 @@ public final class AuthenticatedUserOuterClass {
             index, org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry.getDefaultInstance());
       }
       /**
-       * <pre>
-       *map&lt;ClaimMapping, string&gt; user= 6;
-       * </pre>
-       *
        * <code>repeated .MapEntry userAttributes = 5;</code>
        */
       public java.util.List<org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.MapEntry.Builder> 
@@ -1328,13 +1216,12 @@ public final class AuthenticatedUserOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027AuthenticatedUser.proto\032\016MapEntry.prot" +
-      "o\032\022ClaimMapping.proto\"\253\001\n\021AuthenticatedU" +
-      "ser\022\030\n\020serialVersionUID\030\001 \001(\022\022&\n\036authent" +
-      "icatedSubjectIdentifier\030\002 \001(\t\022\030\n\020federat" +
-      "edIdPName\030\003 \001(\t\022\027\n\017isFederatedUser\030\004 \001(\010" +
-      "\022!\n\016userAttributes\030\005 \003(\0132\t.MapEntryB*\n(o" +
-      "rg.wso2.custom.authenticator.local.grpcb" +
-      "\006proto3"
+      "o\"\253\001\n\021AuthenticatedUser\022\030\n\020serialVersion" +
+      "UID\030\001 \001(\022\022&\n\036authenticatedSubjectIdentif" +
+      "ier\030\002 \001(\t\022\030\n\020federatedIdPName\030\003 \001(\t\022\027\n\017i" +
+      "sFederatedUser\030\004 \001(\010\022!\n\016userAttributes\030\005" +
+      " \003(\0132\t.MapEntryB*\n(org.wso2.custom.authe" +
+      "nticator.local.grpcb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -1348,7 +1235,6 @@ public final class AuthenticatedUserOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.getDescriptor(),
-          org.wso2.custom.authenticator.local.grpc.ClaimMappingOuterClass.getDescriptor(),
         }, assigner);
     internal_static_AuthenticatedUser_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1357,7 +1243,6 @@ public final class AuthenticatedUserOuterClass {
         internal_static_AuthenticatedUser_descriptor,
         new java.lang.String[] { "SerialVersionUID", "AuthenticatedSubjectIdentifier", "FederatedIdPName", "IsFederatedUser", "UserAttributes", });
     org.wso2.custom.authenticator.local.grpc.MapEntryOuterClass.getDescriptor();
-    org.wso2.custom.authenticator.local.grpc.ClaimMappingOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)
