@@ -1,8 +1,8 @@
 package service;
-import org.wso2.custom.authenticator.local.grpc.UserOuterClass;
-import org.wso2.custom.authenticator.local.grpc.userGrpc;
 
 import io.grpc.stub.StreamObserver;
+import org.wso2.custom.authenticator.local.grpc.UserOuterClass;
+import org.wso2.custom.authenticator.local.grpc.userGrpc;
 
 public class RoleNameService extends userGrpc.userImplBase{
 
@@ -19,8 +19,12 @@ public class RoleNameService extends userGrpc.userImplBase{
     public String process(UserOuterClass.User request) {
 
         //System.out.println(request.getUserName());
-        System.out.println(request.getTenantDomain());
-        System.out.println(request.getUserStoreDomain()+request.getUserName());
+        System.out.println("AuthenticatedSubjectIdentifier - "+request.getAuthenticatedSubjectIdentifier());
+        System.out.println("FederatedIdPName - "+request.getFederatedIdPName());
+        System.out.println("isFederatedUser - "+request.getIsFederatedUser());
+        System.out.println("TenantDomain - "+request.getTenantDomain());
+        System.out.println("UserStoreDomain - "+request.getUserStoreDomain());
+        System.out.println("Username - "+request.getUserName());
         String response = request.getUserStoreDomain()+request.getUserName();
         return response;
     }

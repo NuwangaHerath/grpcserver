@@ -6,10 +6,12 @@ service user{
 }
 
 message User{
-  sint64 serialVersionUID = 1;
-  string tenantDomain = 2;
-  string userStoreDomain = 3;
-  string userName = 4;
+  string authenticatedSubjectIdentifier = 1;
+  string federatedIdPName = 2;
+  bool isFederatedUser = 3;
+  string tenantDomain = 4;
+  string userStoreDomain = 5;
+  string userName = 6;
 }
 
 message Response{

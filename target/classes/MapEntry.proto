@@ -1,8 +1,0 @@
-syntax = "proto3";
-option java_package = "org.wso2.custom.authenticator.local.grpc";
-import "ClaimMapping.proto";
-
-message MapEntry {
-  ClaimMapping key = 1;
-  string value = 2;
-}
